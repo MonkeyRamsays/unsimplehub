@@ -1,13 +1,7 @@
                                                                             package
-        me                                                                  .
-        puugz                                                               .
-        simplehub                                                           ;
+                                                                                    yo.its.me.unsimplehub;
                                                                             import
-        me                                                                  .
-        puugz                                                               .
-        simplehub                                                           .
-        command                                                             .
-        HubCommand                                                          ;
+                                                                                    yo.its.me.unsimplehub.command.HubCommand;
                                                                             import
         net                                                                 .
         md_5                                                                .
@@ -15,7 +9,8 @@
         api                                                                 .
         plugin                                                              .
         Plugin                                                              ;
-        public
+
+                                                                            public
         class
         VeryComplexHub
         extends
@@ -38,7 +33,7 @@
                                                                             (
                         this                                          ,
                                                                             new
-                                HubCommand                                  (
+                                                                                    HubCommand(
                         "f"                                           +
                                 "u"                                         +
                                 "l"                                         +

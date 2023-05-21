@@ -1,7 +1,5 @@
                                                         package
-me                                                      .
-puugz                                                   .
-simplehub                                               ;
+                                                                yo.its.me.unsimplehub;
 public
 class
 CommandHandler

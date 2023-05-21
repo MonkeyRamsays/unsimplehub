@@ -1,8 +1,5 @@
 package
-me  .
-puugz   .
-simplehub   .
-command
+        yo.its.me.unsimplehub.command
 ;
 import
 net  .
