@@ -1,2 +1,2 @@
-rootProject.name = "simplehub"
+rootProject.name = "unsimplecomplexhub"
 

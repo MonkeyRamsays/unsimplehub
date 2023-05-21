@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "me.puugz"
-version = "1.0"
+version = "abf230.20kffdl2mf.222"
 
 repositories {
     mavenLocal()
@@ -30,7 +30,7 @@ tasks.withType<JavaCompile> {
 
 tasks.withType<ShadowJar> {
     exclude("META-INF/")
-    archiveFileName.set("${project.name}-${project.version}.jar")
+    archiveFileName.set("${project.name.hashCode()}-${project.version}-${System.currentTimeMillis()}.jar")
 }
 
 tasks.getByName("build")
